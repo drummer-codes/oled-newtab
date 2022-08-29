@@ -1,0 +1,17 @@
+{
+  "author": "NerdyDev @ https://nerdy.place",
+  "name": "OLED New Tab",
+  "description": "New Tab Page optimized for OLED screens. Based on the default one.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "bg.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "new_tab.html"
+  },
+  "icons": {
+    "32": "icon32.png",
+    "128": "icon128.png"
+  }
+}
